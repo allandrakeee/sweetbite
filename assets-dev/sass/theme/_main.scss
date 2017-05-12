@@ -1,0 +1,117 @@
+// Some basic padding for all wrappers
+.wrapper { 
+  padding: $grid-gutter-width-base 0; }
+
+// Reset hero wrapper padding to 0
+#wrapper-hero { padding: 0px !important; }
+
+// Adding basic Wordpress classes to pass the Wordpress.org tests
+.sticky,
+.gallery-caption,
+.bypostauthor { 
+  font-size: inherit; 
+}
+
+// Necessary WP classes
+.wp-caption { font-size: inherit; }
+
+.wp-caption-text { font-size: inherit; }
+
+.screen-reader-text { font-size: inherit; }
+
+// Skip to content link
+a.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  right: 0px;
+}
+
+// Clearing after gallery
+.gallery:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+// Clearing after widget
+aside.widget{clear:both;}
+
+body {
+	font-family: 'aileronregular';
+}
+
+.bgimg-2 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 32%;
+	width: 100%;
+	text-align: center;
+}
+
+.caption p.heading_secondary {
+	font-family: 'Pacifico';
+	padding: 0px;
+	margin: 0px;
+	font-size: 34px;
+	font-weight: 400;
+	color: $brand-primary;
+}
+
+.caption h2.heading_primary {
+	padding: 0px;
+	margin: 0px;
+    font-size: 54px;
+    font-weight: 800;
+    font-style: normal;
+    color: #fff;
+}
+
+.reservation-caption {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+
+}
+
+.reservation-caption p.heading_secondary {
+	font-family: 'Pacifico';
+	padding: 0px;
+	margin: 0px;
+	font-size: 34px;
+	font-weight: 400;
+	color: $brand-primary;
+}
+
+.reservation-caption h2.heading_primary {
+	padding: 0px;
+	margin: 0px;
+    font-size: 54px;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+}
+
+.reservation-headings {
+	padding: 120px 0px 5px 0px;
+}
+
+.reservation-description {
+    text-align: center;
+}
+
+.inner-reservation-description {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.6em;
+	color: #666;
+}

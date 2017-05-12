@@ -1,0 +1,54 @@
+/*!
+ * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "../../temp/sass/bootstrap4/variables";
+@import "../../temp/sass/bootstrap4/mixins";
+@import "../../temp/sass/bootstrap4/custom";
+
+// Reset and dependencies
+@import "../../temp/sass/bootstrap4/normalize";
+@import "../../temp/sass/bootstrap4/print";
+
+// Core CSS
+@import "../../temp/sass/bootstrap4/reboot";
+@import "../../temp/sass/bootstrap4/type";
+@import "../../temp/sass/bootstrap4/images";
+@import "../../temp/sass/bootstrap4/code";
+@import "../../temp/sass/bootstrap4/grid";
+@import "../../temp/sass/bootstrap4/tables";
+@import "../../temp/sass/bootstrap4/forms";
+@import "../../temp/sass/bootstrap4/buttons";
+
+// Components
+@import "../../temp/sass/bootstrap4/transitions";
+@import "../../temp/sass/bootstrap4/dropdown";
+@import "../../temp/sass/bootstrap4/button-group";
+@import "../../temp/sass/bootstrap4/input-group";
+@import "../../temp/sass/bootstrap4/custom-forms";
+@import "../../temp/sass/bootstrap4/nav";
+@import "../../temp/sass/bootstrap4/navbar";
+@import "../../temp/sass/bootstrap4/card";
+@import "../../temp/sass/bootstrap4/breadcrumb";
+@import "../../temp/sass/bootstrap4/pagination";
+@import "../../temp/sass/bootstrap4/badge";
+@import "../../temp/sass/bootstrap4/jumbotron";
+@import "../../temp/sass/bootstrap4/alert";
+@import "../../temp/sass/bootstrap4/progress";
+@import "../../temp/sass/bootstrap4/media";
+@import "../../temp/sass/bootstrap4/list-group";
+@import "../../temp/sass/bootstrap4/responsive-embed";
+@import "../../temp/sass/bootstrap4/close";
+
+// Components w/ JavaScript
+@import "../../temp/sass/bootstrap4/modal";
+@import "../../temp/sass/bootstrap4/tooltip";
+@import "../../temp/sass/bootstrap4/popover";
+@import "../../temp/sass/bootstrap4/carousel";
+
+// Utility classes
+@import "../../temp/sass/bootstrap4/utilities";

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/**
+ * Loads all sass dependencies.
+ * Bootstrap, font-awesome, etc.
+ */
+@import "vendor/**/*";
+
+/**
+ * All theme core sass files
+ * Pages, widgets, contact forms styles, etc.
+ */
+@import "theme/**/*";

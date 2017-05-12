@@ -1,0 +1,23 @@
+{
+  "name": "sweetbite",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "gulpfile.js",
+  "authors": [
+    "Allan Drake"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/allandrakeee/sweetbite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0",
+    "tether": "^1.4.0",
+    "animate-sass": "^0.6.6"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "sweetbite",
+  "version": "0.0.1",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allandrakeee/sweetbite.git"
+  },
+  "author": "Allan Drake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allandrakeee/sweetbite/issues"
+  },
+  "homepage": "https://github.com/allandrakeee/sweetbite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clone": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-merge": "^0.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-watch": "^4.3.11",
+    "merge2": "^1.0.3",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "undescores-for-npm": "^1.0.0"
+  }
+}

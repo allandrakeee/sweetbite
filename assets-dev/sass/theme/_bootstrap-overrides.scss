@@ -1,0 +1,42 @@
+/**
+ * Carousel
+ */
+
+ .carousel-inner {
+ 	height: 100%;
+ 	position: relative;
+ }
+
+#slider-hero .carousel-indicators.landing-page { 
+	visibility: hidden; 
+}
+
+#slider-hero:hover .carousel-indicators.landing-page { 
+	visibility: visible; 
+}
+
+.carousel-indicators.landing-page li.active {
+	background-color: $brand-primary;
+}
+
+.carousel-indicators.landing-page li:hover {
+	background-color: $brand-primary;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-primary {
+	background-color: $brand-primary;
+	border-color: $brand-primary;
+	color: #000000;
+}
+
+.btn-primary:hover {
+	background-color: #000000;
+	border-color: #000000;
+	color: #ffffff;
+}
